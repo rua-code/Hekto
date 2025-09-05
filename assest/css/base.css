@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.continer{
+  width:calc(100% - 320px);
+  margin: auto;
+}
+
+ul{
+ list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --primaryColor:#FB2E86;
+    --mainFont:"Lato", sans-serif;
+    --secondaryFont:"Josefin Sans", sans-serif
+}
+
+.btn{
+    background-color: var(--primaryColor);
+    border-radius: 2px;
+    padding: 16px 40px;
+    outline:none;
+    border: none;
+}
+
+.row{
+      display: flex;
+      flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

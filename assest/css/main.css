@@ -1,0 +1,57 @@
+.not-used-so-far{
+     font-family: var(--secondaryFont);
+     font-weight: 700;
+     font-size: 34px;
+     letter-spacing: 0;
+
+}
+
+.header{
+    padding: 57px 0px;
+}
+
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bar{
+    display: none;
+}
+
+
+.list a{
+    color:#0D0E43;
+}
+.header .active{
+    color: var(--primaryColor);
+}
+.search form{
+    border: 1px solid #E7E6EF;
+    border-radius: 5px;
+}
+.search  input{
+    border: none;
+    outline: none;
+    padding-left: 9px;
+    width: 250px;
+}
+.search button{
+       outline: none;
+       border: none;
+       background-color: var(--primaryColor);
+       padding: 8px 13px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .list , .search{
+        display: none;
+    }
+
+    .bar{
+        display: block;
+    }
+}
+

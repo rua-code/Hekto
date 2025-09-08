@@ -38,3 +38,18 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.d-flex{
+  display: flex;
+}
+.flex-dir{
+  flex-direction: column;
+}
+.gap1{
+  gap: 10px;
+}
+.gap2{
+  gap: 40px;
+}
+.gap3{
+  gap: 20px;
+}

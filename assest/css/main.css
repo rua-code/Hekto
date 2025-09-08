@@ -45,6 +45,7 @@
 }
 
 
+
 @media screen and (max-width:1200px) {
     .list , .search{
         display: none;
@@ -55,3 +56,29 @@
     }
 }
 
+/* end of header */
+
+/* start of footer */
+.footer{
+    background-color:#EEEFFB;
+    padding: 50px 0;
+}
+.left button{
+    color: #EEEFFB;
+}
+
+.footer .left{
+    align-items: flex-start;
+}
+
+.footer .right{
+    width: 60%;
+}
+
+.footer-item a{
+    color: #8A8FB9;
+}
+.contact{
+     color: #8A8FB9;
+    
+}

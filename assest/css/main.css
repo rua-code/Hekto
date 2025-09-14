@@ -52,7 +52,31 @@
 
 /* end of header */
 
+/* newslater */
+.newslater{
+    background-image: url('../images/news.png');
+    padding: 175px 0px;
+    text-align: center;
+    gap: 15px;
+   align-items: center;
+}
 
+.newslater h2{
+    color: var(--secondaryColor);
+    font-size: 35px;
+}
+
+.newslater a{
+    color:white;
+}
+
+.shop-btn{
+    transition: all .5s;
+}
+.shop-btn:hover{
+    background-color: var(--secondaryColor);; 
+}
+/* newslater */
 
 
 

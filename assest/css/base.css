@@ -41,6 +41,7 @@ a{
 
 :root{
     --primaryColor:#FB2E86;
+     --secondaryColor:#151875;
     --mainFont:"Lato", sans-serif;
     --secondaryFont:"Josefin Sans", sans-serif
 }

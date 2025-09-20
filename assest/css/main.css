@@ -52,7 +52,58 @@
 
 /* end of header */
 
+
+
+/* start Hero */
+.hero{
+    background-color: #F2F0FF;
+    padding: 50px 0px;
+}
+
+.description{
+    flex-wrap: wrap;
+    flex: 1 0 60%;
+    justify-content: space-between;
+}
+.description .light-hero{
+    /* معناها اني بقدر احركه بالنسبة لمكانه الاصلي */
+    position: relative;     
+       bottom: 80px;
+       right: 160px;
+      
+}
+.light-hero img{
+     height: 200px;
+    width:200px;
+}
+.hero-img{
+    flex: 1 0 30%;
+}
+.hero-img img{
+    width: 100%;
+}
+
+.info{
+    position: relative;
+    left: 90px;
+    bottom: 70px;
+}
+.info p{
+    color:#8A8FB9
+}
+.info .btn{
+    color: #fff;
+}
+.info .headline{
+    color: var(--primaryColor);
+    
+}
+/* end Hero */
+
 /* featured-products */
+.featured-products h2{
+  color: #00009D;
+}
 .featured-products{
     padding: 50px 0px;
 }
@@ -76,6 +127,59 @@
 .product .product-info{
     padding: 20px 0px;
 }
+
+.color{
+    width: 14px;
+    height: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+
+}
+.color-one{
+    background-color: #05E6B7;
+}
+.color-two{
+    background-color: #F701A8;
+}
+.color-three{
+   background-color: #00009D;
+    transition: all .6s;
+}
+
+.text-sec{
+    color: #151875;
+}
+.product-details{
+    transition: all .6s;
+    border-radius: 2px;
+}
+
+.product:hover .product-details{
+    background-color: #2F1AC4;
+
+}
+.product-details h3{
+    transition: all .6s;
+    margin-top: 10px;
+   
+}
+.product:hover .product-details h3{
+   color: #fff;
+}
+
+.product:hover .color-three{
+    background-color:#FFEAC1;
+}
+.product:hover .product-info{
+    color: #fff;
+}
+.sale{
+    position: absolute;
+    
+}
+
+
 
 /* end of featured-products */
 

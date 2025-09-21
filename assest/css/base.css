@@ -53,7 +53,11 @@ a{
     outline:none;
     border: none;
 }
-
+.view-btn{
+  background-color: #08D15F;
+  padding: 5px 10px;
+  color: #fff;
+}
 .row{
       display: flex;
       flex-wrap: wrap;

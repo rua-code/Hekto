@@ -100,9 +100,12 @@
 }
 /* end Hero */
 
+
+
 /* featured-products */
 .featured-products h2{
   color: #00009D;
+  font-size: 40px;
 }
 .featured-products{
     padding: 50px 0px;
@@ -193,10 +196,7 @@ visibility:hidden;
 .product:hover .product-info{
     color: #fff;
 }
-.sale{
-    position: absolute;
 
-}
 .product:hover .group{
     visibility: visible;
 } 
@@ -206,6 +206,108 @@ visibility:hidden;
 }
 
 /* end of featured-products */
+
+
+
+/* latest product  */
+.latest-product h2{
+    color: var(--secondaryColor);
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.latest-product .active{
+    color: var(--primaryColor);
+    text-decoration: underline;
+}
+ .categories  ul{
+    justify-self: center;
+    gap: 35px;
+}
+ 
+.products{
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ .item .img img{
+    background-color: #F6F7FB;
+    padding: 30px 0px;
+    border-radius: 4px;
+    height: 250px;
+    
+    width: 100%;
+    object-fit: contain;
+}
+.products .item{
+    flex-grow: 1;
+    flex-basis: 300px;
+    box-shadow: 0px 4px 4px #00000040;
+     gap: 20px;
+     position: relative;
+}
+.content{
+    padding: 5px 8px;
+    justify-content: space-between;
+    text-align: center;
+}
+.old-price{
+    color:#FB2448;
+    text-decoration: line-through;
+}
+
+.sale{
+    position: absolute;
+   top: 10px;
+    left: 4px;
+    width: 20%;
+}
+.interaction{
+    position: absolute;
+    bottom: 60px;
+    left: 6px;
+    width: 6%;
+    cursor: pointer;
+}
+
+/* end latest product  */
+
+/* What Shopex Offer! */
+.shopex h2{
+    padding: 40px 0px;
+    color: var(--secondaryColor);
+    font-size: 40px;
+}
+.card{
+   padding: 20px 30px;
+   margin-bottom: 10px;
+  flex-wrap: nowrap;
+  width: 20%;
+  gap: 50px;
+  
+}
+.card .support{
+    color: var(--secondaryColor);
+    font-weight: bold;
+    font-size: 20px;
+}
+.card .des{
+    color: #D9D9D9;
+}
+@media screen and (max-widht:900px) {
+    .shopex .card{
+        width: calc(( 100% - 100px) / 2);
+    }
+    
+}
+/* what shopex offer */
+
+
+
 
 /* newslater */
 .newslater{
@@ -252,12 +354,7 @@ visibility:hidden;
    height: 150px;   /* why  */
 }
 
-@media screen and (max-widht:900px) {
-    .clients .logo{
-        width: calc(( 100% - 30px) / 3);
-    }
-    
-}
+
 /* end of clients */
 
 /* start of footer */
@@ -309,7 +406,7 @@ visibility:hidden;
 @media screen and (max-width:576px) {
     .footer-item{
         width: 100%;
-         justify-content: center;
+         justify-content : center;
     text-align: center;
     }
     

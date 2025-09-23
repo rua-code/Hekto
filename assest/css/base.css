@@ -91,3 +91,6 @@ a{
 .text-primary{
   color: var(--primaryColor);
 }
+.text-sec{
+  color: var(--secondaryColor);
+}

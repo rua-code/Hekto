@@ -298,12 +298,21 @@ visibility:hidden;
 .card .des{
     color: #D9D9D9;
 }
-@media screen and (max-widht:900px) {
+@media screen and (max-width:500px) {
     .shopex .card{
-        width: calc(( 100% - 100px) / 2);
+        width: calc(( 100% - 100px) / 1);
+       text-align: center;
     }
     
 }
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  .shopex .card {
+    width: calc((100% - 100px) / 2); 
+    text-align: center;
+  }
+}
+
+
 /* what shopex offer */
 
 

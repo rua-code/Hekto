@@ -94,3 +94,11 @@ a{
 .text-sec{
   color: var(--secondaryColor);
 }
+.cir-img{
+  border-radius: 50%;
+  background-color: #F6F7FB;
+  padding: 30px 20px;
+}
+.gary{
+  color: #72718F;
+}
